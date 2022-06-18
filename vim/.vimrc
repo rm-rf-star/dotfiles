@@ -37,10 +37,8 @@ set autoindent
 " let 10 lines before/after cursor during scroll
 set scrolloff=10
 
-"=====================================================
-"" python settings
-"=====================================================
-
+" filetype detection and indentation
+filetype indent plugin on
 
 "=====================================================
 "" colorscheme settings
