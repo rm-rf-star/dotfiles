@@ -60,6 +60,7 @@ set laststatus=2
 " don't show mode, this is taken care of by lightline
 set noshowmode
 
+" set lightline colorscheme
 let g:lightline = {
       \ 'colorscheme': 'embark',
       \ }
