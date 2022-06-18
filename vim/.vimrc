@@ -13,8 +13,29 @@
 "" general settings
 "=====================================================
 
-" syntax highlight
+" syntax highlighting
 syntax enable
+
+" show line numbers
+set number
+
+" 4 whitespaces for tabs visual presentation
+set tabstop=4
+
+" shift lines by 4 spaces
+set shiftwidth=4
+
+" set tabs for a shifttabs logic
+set smarttab
+
+" expand tabs into spaces
+set expandtab
+
+" indent when moving to the next line while writing code
+set autoindent
+
+" let 10 lines before/after cursor during scroll
+set scrolloff=10
 
 "=====================================================
 "" python settings
