@@ -11,8 +11,10 @@ chmod +x install.sh
 
 ## Updating plugins
 ```
+cd dotfiles
 git submodule update --remote
 git add *
 git commit
 git push
+./install.sh
 ```
