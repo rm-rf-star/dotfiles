@@ -13,6 +13,9 @@
 "" general settings
 "=====================================================
 
+" disable viminfo
+set viminfofile=NONE
+
 " syntax highlighting
 syntax enable
 
